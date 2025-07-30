@@ -1,0 +1,25 @@
+<!-- HTML file to create a weather dashboard webpage -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Weather Dashboard</title>
+<!-- Linking css file for styling -->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Weather Dashboard</h1>
+<!-- Input box and button to get user input -->
+            <input type="text" id="cityInput" placeholder="Enter city name here..."/>
+            <button onclick="getWeather()">Get Weather</button>
+            <div id="weatherCard"></div>
+            <p id="error"></p>
+        </div>
+<!-- Linking javascript file for fetching weather data for the given input -->
+        <script src="script.js"></script>
+    </body>
+</html>
+
+

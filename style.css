@@ -1,0 +1,62 @@
+/* CSS file for styling */
+
+/* Webpage */
+body{
+    font-family:Arial,sans-serif;
+    background:rgb(192, 237, 243);
+    text-align:center;
+    padding:1.5rem;
+    margin:0;
+}
+
+/* Weather Dashboard */
+.container{
+    max-width:340px;
+    margin:auto;
+    background:white;
+    padding:1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4x 8x rgbr(0,0,0,0.1);
+}
+
+input{
+    padding:0.4rem;
+    width:65%;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding:0.4rem 0.8rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    cursor:pointer;
+}
+
+/* Weather Card */
+#weatherCard{
+    margin-top: 1rem;
+    padding:0.8rem;
+    background:white;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+
+}
+
+#weatherCard img{
+    width:60px;
+    height:60px;
+}
+
+#weatherCard h2{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Error */
+#error{
+    color:red;
+    margin-top: 1rem;
+    font-size:0.9rem;
+}
